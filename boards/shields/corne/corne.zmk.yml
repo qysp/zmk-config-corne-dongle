@@ -3,10 +3,12 @@ id: corne
 name: Corne
 type: shield
 url: https://github.com/foostan/crkbd/
-requires: [pro_micro]
+requires:
+  - pro_micro
+  - seeeduino_xiao_ble
 features:
   - keys
 siblings:
-  - corne_left
-  - corne_right
-  - corne_dongle
+  - corne_peripheral_left
+  - corne_peripheral_right
+  - corne_central_dongle
