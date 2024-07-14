@@ -65,7 +65,7 @@
    &none &none &kp F1 &kp F2  &kp F3  &kp F4    &kp KP_MINUS &kp N1 &kp N2 &kp N3 &kp KP_ASTERISK &none
                             &none &none &none   &kp KP_EQUAL &kp KP_ENTER &none
                         >;
-                }
+                };
 
                 layer_Symbols {
                         bindings = <
@@ -74,7 +74,7 @@
    &trans    &none     &none    &none    &none    &none       &none     &none    &none     &none    &none    &trans
                                   &none &none &kp LC(SPACE)   &none     &none    &none
                         >;
-                }
+                };
 
                 layer_Adjustment {
                         bindings = <
@@ -83,5 +83,5 @@
    &none &none &none        &none      &none        &none &none   &none      &none        &none        &none        &none        &none
                                               &none &none &none   &none &none &none  
                         >;
-                }
+                };
 };
