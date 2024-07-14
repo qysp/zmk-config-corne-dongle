@@ -19,14 +19,14 @@
 
 / {
         combos {
-    	   compatible = "zmk,combos";
+    	        compatible = "zmk,combos";
 
-	   combo_capsword {
-	   		  timeout-ms = <50>;
-          		  key-positions = <24 35>;
-           		  bindings = <&caps_word>;
-			  layers = <ALPHAS>;
-           };
+                combo_capsword {
+                        timeout-ms = <50>;
+                        key-positions = <24 35>;
+                        bindings = <&caps_word>;
+                        layers = <ALPHAS>;
+                };
         };
 
         keymap {
@@ -85,4 +85,5 @@
                                         &none &none &none   &none &none &none  
                         >;
                 };
+        };
 };
