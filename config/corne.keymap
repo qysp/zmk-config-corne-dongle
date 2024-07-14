@@ -20,6 +20,7 @@
 / {
         combos {
     	   compatible = "zmk,combos";
+
 	   combo_capsword {
 	   		  timeout-ms = <50>;
           		  key-positions = <24 35>;
@@ -78,10 +79,10 @@
 
                 layer_Adjustment {
                         bindings = <
-   &none &none &kp C_VOL_DN &kp C_MUTE &kp C_VOL_UP &none &none   &none      &none        &none        &none        &none        &none 
-   &none &none &kp C_PREV   &kp C_PP   &kp C_NEXT   &none &none   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4
-   &none &none &none        &none      &none        &none &none   &none      &none        &none        &none        &none        &none
-                                              &none &none &none   &none &none &none  
+   &none &none &kp C_VOL_DN &kp C_MUTE &kp C_VOL_UP &none   &none      &none        &none        &none        &none        &none 
+   &none &none &kp C_PREV   &kp C_PP   &kp C_NEXT   &none   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4
+   &none &none &none        &none      &none        &none   &none      &none        &none        &none        &none        &none
+                                        &none &none &none   &none &none &none  
                         >;
                 };
 };
