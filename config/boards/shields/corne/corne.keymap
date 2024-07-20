@@ -21,6 +21,10 @@
         continue-list = <UNDERSCORE MINUS BSPC DEL N1 N2 N3 N4 N5 N6 N7 N8 N9 N0>;
 };
 
+&soft_off {
+        hold-time-ms = <3000>;
+};
+
 / {
         combos {
     	        compatible = "zmk,combos";
@@ -83,10 +87,10 @@
 
                 layer_adjustment {
                         bindings = <
-   &none &none &kp C_VOL_DN &kp C_MUTE &kp C_VOL_UP &none      &none      &none        &none        &none        &none        &tog COLEMAK 
-   &none &none &kp C_PREV   &kp C_PP   &kp C_NEXT   &none      &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4
-   &none &none &none        &none      &none        &none      &none      &none        &none        &none        &none        &none
-                                        &none &none &none      &none &none &none  
+   &soft_off &none &kp C_VOL_DN &kp C_MUTE &kp C_VOL_UP &none      &none      &none        &none        &none        &none        &tog COLEMAK 
+   &none     &none &kp C_PREV   &kp C_PP   &kp C_NEXT   &none      &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4
+   &none     &none &none        &none      &none        &none      &none      &none        &none        &none        &none        &none
+                                            &none &none &none      &none &none &none  
                         >;
                 };
         };
