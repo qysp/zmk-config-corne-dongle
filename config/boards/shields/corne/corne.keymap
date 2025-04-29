@@ -6,7 +6,6 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/pointing.h>
 
 #define QWERTY  0
 #define COLEMAK 1
@@ -87,9 +86,9 @@
 
                 layer_adjustment {
                         bindings = <
-   &soft_off &none &kp C_VOL_DN &kp C_MUTE &kp C_VOL_UP &none      &none &mkp MB1  &mkp MB2  &mkp MB3  &none &tog COLEMAK 
-   &none     &none &kp C_PREV   &kp C_PP   &kp C_NEXT   &none      &none &none     &none     &none     &none &none
-   &none     &none &none        &none      &none        &none      &none &none     &none     &none     &none &none
+   &soft_off &none &kp C_VOL_DN &kp C_MUTE &kp C_VOL_UP &none      &none &none &none &none &none &tog COLEMAK 
+   &none     &none &kp C_PREV   &kp C_PP   &kp C_NEXT   &none      &none &none &none &none &none &none
+   &none     &none &none        &none      &none        &none      &none &none &none &none &none &none
                                             &none &none &none      &none &none &none  
                         >;
                 };
